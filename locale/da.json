@@ -14,13 +14,13 @@
         "schedule_warn_discord": "**%{servername}** genstarter om %{smart_count} minut. |||| **%{servername}** genstarter om %{smart_count} minutter."
     },
     "ban_messages": {
-        "kick_temporary": "(%{author}) You have been banned from this server for \"%{reason}\". Your ban will expire in: %{expiration}.",
-        "kick_permanent": "(%{author}) You have been permanently banned from this server for \"%{reason}\".",
-        "reject_temporary": "You have been banned from this server.\nYour ban will expire in: %{expiration}.\nBan ID: %{id}.\nBan Reason: %{reason}.\nBanned by: %{author}.",
-        "reject_permanent": "You have been permanently banned from this server.\nBan ID: %{id}.\nBan Reason: %{reason}.\nBanned by: %{author}."
+        "kick_temporary": "(%{author}) Du er blevet banned for \"%{reason}\". Din ban vil udløbe: %{expiration}.",
+        "kick_permanent": "(%{author}) Du er blevet permenent banned for \"%{reason}\".",
+        "reject_temporary": "Du er blevet banned fra denne server.\nDin ban vil udløbe om: %{expiration}.\nBan ID: %{id}.\nBan Grund: %{reason}.\nBanned af: %{author}.",
+        "reject_permanent": "Du er blevet permenent banned fra denne server.\nBan ID: %{id}.\nBan Grunnd: %{reason}.\nBanned af: %{author}."
     },
     "server_actions": {
-        "restarting": "Server genstarter: (%{reason}).",
+        "restarting": "Serveren genstarter: (%{reason}).",
         "restarting_discord": "**%{servername}** genstarter: (%{reason}).",
         "stopping": "Serveren er stoppet (%{reason}).",
         "stopping_discord": "**%{servername}** er lukket ned: (%{reason}).",
@@ -37,119 +37,119 @@
     },
     "nui_menu": {
         "misc": {
-            "help_message": "txAdmin Menu enabled, type /tx to open it.\nYou can also configure a keybind at [Game Settings > Key Bindings > FiveM > Menu: Open Main Page].",
-            "menu_not_allowed": "Your identifiers do not match any admin registered on txAdmin.\nIf you are registered on txAdmin, go to Admin Manager and make sure your identifiers are saved.",
-            "no_perms": "You do not have this permission.",
-            "unknown_error": "An unknown error occurred.",
-            "not_enabled": "The txAdmin Menu is not enabled! You can enable it in the txAdmin settings page.",
-            "announcement_title": "Server Announcement by %{author}:",
-            "dialog_empty_input": "You cannot have an empty input."
+            "help_message": "txAdmin Menu aktiveret, skriv /tx for at åbne den.\nDu kan også konfigurere en keybind ved [Game Settings > Key Bindings > FiveM > Menu: Open Main Page].",
+            "menu_not_allowed": "Dine identifikatorer matcher ikke nogen admin registreret på txAdmin.\nHvis du er registreret på txAdmin, skal du gå til Admin Manager og sørge for, at dine identifikatorer er gemt.",
+            "no_perms": "Du har ikke denne tilladelse.",
+            "unknown_error": "Der opstod en ukendt fejl.",
+            "not_enabled": "txAdmin-menuen er ikke aktiveret! Du kan aktivere det på siden med txAdmin-indstillinger.",
+            "announcement_title": "Servermeddelelse af %{author}:",
+            "dialog_empty_input": "Du kan ikke have et tomt input."
         },
         "frozen": {
-            "froze_player": "You have frozen the player!",
-            "unfroze_player": "You have unfrozen the player!",
-            "was_frozen": "You have been frozen by a server admin!"
+            "froze_player": "Du har frosset spilleren!",
+            "unfroze_player": "Du har tøet spilleren!",
+            "was_frozen": "Du er blevet frosset af en serveradministrator!"
         },
         "common": {
-            "cancel": "Cancel",
-            "submit": "Submit",
-            "error": "An error occurred",
-            "copied": "Copied to clipboard."
+            "cancel": "Annuller",
+            "submit": "Godkend",
+            "error": "En fejl opstod",
+            "copied": "Kopieret til udklipsholder."
         },
         "page_main": {
             "tooltips": {
-                "tooltip_1": "Use %{key} to switch pages & the arrow keys to navigate menu items",
-                "tooltip_2": "Certain menu items have sub options which can be selected using the left & right arrow keys"
+                "tooltip_1": "Brug %{key} for at skifte side og piletasterne for at navigere i menupunkter",
+                "tooltip_2": "Visse menupunkter har undervalg, som kan vælges ved hjælp af venstre og højre piletasterne"
             },
             "player_mode": {
                 "title": "Player Mode",
                 "noclip": {
                     "title": "NoClip",
-                    "label": "Fly around",
-                    "success": "NoClip enabled"
+                    "label": "Flyv rund",
+                    "success": "NoClip aktiveret"
                 },
                 "godmode": {
                     "title": "God",
-                    "label": "Invincible",
-                    "success": "God Mode enabled"
+                    "label": "Udødlig",
+                    "success": "God Mode aktiveret"
                 },
                 "normal": {
                     "title": "Normal",
-                    "label": "Default mode",
-                    "success": "Returned to default player mode."
+                    "label": "Standart mode",
+                    "success": "Vendte tilbage til standardafspillertilstand."
                 }
             },
             "teleport": {
                 "title": "Teleport",
-                "generic_success": "Sent you into the wormhole!",
+                "generic_success": "Sendte dig ind i ormehullet!",
                 "waypoint": {
                     "title": "Waypoint",
-                    "label": "Go to waypoint set",
-                    "error": "You have no waypoint set."
+                    "label": "Gå til waypoint sat",
+                    "error": "Du har ikke nogle waypoint sat."
                 },
                 "coords": {
                     "title": "Coords",
-                    "label": "Go to specified coords",
-                    "dialog_title": "Teleport",
-                    "dialog_desc": "Provide coordinates in an x, y, z format to go through the wormhole.",
-                    "dialog_error": "Invalid coordinates. Must be in the format of: 111, 222, 33"
+                    "label": "Gå til angivet koordinater",
+                    "dialog_title": "Teleporter",
+                    "dialog_desc": "Angiv koordinater i et x, y, z-format for at gå gennem ormehullet.",
+                    "dialog_error": "Ugyldige koordinater. Skal være i formatet: 111, 222, 33"
                 },
                 "back": {
-                    "title": "Back",
-                    "label": "Go back to last location",
-                    "error": "You don't have a last location to go back to!"
+                    "title": "Tlbage",
+                    "label": "Gå til sidste lokation",
+                    "error": "Du har ikke et sidste sted at gå tilbage til!"
                 },
                 "copy": {
-                    "title": "Copy Coords",
-                    "label": "Copy coords to clipboard."
+                    "title": "Kopir Kordinater",
+                    "label": "Kopier koordinater til udklipsholder."
                 }
             },
             "vehicle": {
                 "title": "Vehicle",
-                "onesync_error": "This option requires that OneSync be on for server entity handling",
-                "not_in_veh_error": "You are not currently in a vehicle!",
+                "onesync_error": "Denne indstilling kræver, at OneSync er slået til for håndtering af serverenheder",
+                "not_in_veh_error": "Du er ikke i et køretøj i øjeblikket!",
                 "spawn": {
                     "title": "Spawn",
-                    "label": "Spawn vehicle by model name",
-                    "dialog_title": "Spawn vehicle",
-                    "dialog_desc": "Enter in the model name of the vehicle you want to spawn.",
-                    "dialog_success": "Vehicle spawned!",
-                    "dialog_error": "The vehicle model name '%{modelName}' does not exist!",
-                    "dialog_info": "Trying to spawn %{modelName}."
+                    "label": "Spawn køretøj efter modelnavn",
+                    "dialog_title": "Spawn køretøj",
+                    "dialog_desc": "Indtast modelnavnet på det køretøj, du vil spawne.",
+                    "dialog_success": "Køretøj spawned!",
+                    "dialog_error": "Køretøjsmodelnavnet '%{modelName}' eksisterer ikke!",
+                    "dialog_info": "Prøver at spawn %{modelName}."
                 },
                 "fix": {
                     "title": "Fix",
-                    "label": "Fix the current vehicle",
-                    "success": "Vehicle fixed!"
+                    "label": "Fix Køretøjet",
+                    "success": "Køretøj fixed!"
                 },
                 "delete": {
-                    "title": "Delete",
-                    "label": "Delete the current vehicle",
-                    "success": "Vehicle deleted!"
+                    "title": "Slet",
+                    "label": "Slet seneste køretøj",
+                    "success": "Køretøj slettet!"
                 }
             },
             "heal": {
-                "title": "Heal",
+                "title": "Genopliv",
                 "myself": {
-                    "title": "Myself",
-                    "label": "Restores your health",
-                    "success_0": "All healed up!",
-                    "success_1": "You should be feeling good now!",
-                    "success_2": "Restored to full!",
-                    "success_3": "Ouchies fixed!"
+                    "title": "Mig Selv",
+                    "label": "Genopretter dit helbred",
+                    "success_0": "Alt blev helbredt!",
+                    "success_1": "Du burde føle godt nu!",
+                    "success_2": "Gendannet til fuld!",
+                    "success_3": "Skrammer fikset!"
                 },
                 "everyone": {
-                    "title": "Everyone",
-                    "label": "Will heal & revive all players",
+                    "title": "Allesammen",
+                    "label": "Vil blive helbredt & genoplive alle spillere",
                     "success": "Healed and revived all players."
                 }
             },
             "announcement": {
-                "title": "Send Announcement",
-                "label": "Send an announcement to all online players.",
-                "dialog_desc": "Send an announcement to all online players.",
-                "dialog_placeholder": "Your announcement...",
-                "dialog_success": "Sending the announcement."
+                "title": "Send Annonce",
+                "label": "Send en annonce til alle online spillere.",
+                "dialog_desc": "Send en annonce til alle online spillere.",
+                "dialog_placeholder": "Din annonce...",
+                "dialog_success": "Sender annoncen."
             },
             "clear_area": {
                 "title": "Reset World Area",
